@@ -1,5 +1,5 @@
 {
-  "name": "bikeclub/user_contacts",
+  "name": "bikeclub/user_contactlink",
   "description": "Plugin to display a User entity reference field with a direct link to the user contact form.",
   "keywords": ["module", "Contacts"],
   "type": "drupal-module",
