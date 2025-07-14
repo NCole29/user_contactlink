@@ -1,4 +1,4 @@
-name: 'User contact forms'
+name: 'User contact links'
 type: module
 description: 'Provides plugin to link user name directly to the user contact form.'
 core_version_requirement: ^9 || ^10 || ^11
