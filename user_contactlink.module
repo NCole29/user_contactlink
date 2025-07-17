@@ -6,8 +6,8 @@ use Drupal\Core\Cache\RefinableCacheableDependencyInterface;
  * Implements hook_menu_local_tasks_alter().
  */
 function user_contactlink_menu_local_tasks_alter(&$data, $route_name, RefinableCacheableDependencyInterface $cacheability) {
-  // Remove tabs from the personal contact form page.
-  if ($route_name == 'entity.user.contact_form') {
+  // Remove tabs from the contact forms. Manage fields, display, etc is available on admin menu.
+  if ($route_name == 'entity.user.contact_form' or $route_name == 'entity.contact_form.canonical') {
     unset($data['tabs'][0]);
   }
 }
